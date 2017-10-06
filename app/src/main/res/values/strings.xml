@@ -36,7 +36,7 @@
     <string name="balance_delete_user_positive">Delete</string>
     <string name="balance_delete_user_msg">Card deleted</string>
 
-    <string name="balance_copy_msg">Number card copied</string>
+    <string name="balance_copy_msg">Card number copied</string>
 
     <string name="balance_set_name_title">New name</string>
     <string name="balance_set_name_save">Save</string>
@@ -112,28 +112,29 @@
 
         <item>Where do they get Balance and Meter information?</item>
         <item>
-            \tFrom the university dining room\'s website:\n\n
+            \tFrom the university cafeteria\'s website:\n\n
             \tBalance: comedor.unc.edu.ar/autoconsulta.php\n\n
             \tMeter: comedor.unc.edu.ar/cocina.php
         </item>
 
         <item>¿Windows? ¿How estimates work?</item>
         <item>
-            \tThere are \"windows\" (or rather columns) along the dining room,
+            \tThere are \"windows\" (or rather columns) along the cafeteria,
             you have to put the length of the row in front of you, measured in number of windows,
-            on the slide bar. For example, at the height of the men's baths are 5 windows (women 6),
-            the total length of the dining room are 12 windows, the curve is 1 window,
-            and in the second entrance are 25 windows. This is very experimental functionality.
+            on the slide bar. For example, at the height of the men's baths there are 5 windows 
+            (6 for women's), the total length of the dining room are 12 windows, the point
+            where the row curves is 1 window and in the second entrance are 25 windows. 
+            This is very experimental functionality.
             It works with a simple quadratic function calculated from a statistic.
-            Although the fewer people you have ahead the more accurate it is,
-            the changing nature of the dining room line is difficult to give an accurate estimate.
-            We choose "windows" as a measure because they will never change over time,
+            Although the fewer people you have ahead the more accurate it is, the 
+            changing nature of the cafeteria\'s line makes it difficult to give an accurate estimate.
+            We choose "windows" as a measurement value because they will never change over time,
             but curves and countercurves in a row always vary from day to day.
         </item>
 
         <item>How do I apply for the credential? How can I regenerate the credential?</item>
         <item>
-            \tRead the website of the dining room:\n
+            \tRead the website of the cafeteria:\n
             https://www.unc.edu.ar/vida-estudiantil/c%C3%B3mo-solicitar-la-credencial
         </item>
 
@@ -142,7 +143,7 @@
             \tTo add a card using the camera, we use Google Play Services\'s \"Vision\" library.
             If this library is not available on the device, it will be downloaded automatically in
             the background (keep in mind that you need storage space available for the download, if you
-            don\'t have enough room, a warning will appear).\n\n
+            don\'t have enough space, a warning will appear).\n\n
             \tTry again after a few minutes. If you are in a hurry or don\'t have Google Play Services,
             you can add it manually by entering the code with the keyboard.
         </item>
@@ -150,17 +151,17 @@
         <item>Why are Internet and camera permissions needed?</item>
         <item>
             \tInternet access is necessary for updating the menu, the balance and the
-            measurer.\n
+            ration meter.\n
             \tCamera access is for adding the card by scanning the barcode on it.
         </item>
 
         <item>Do I need Internet to check my card balance?</item>
         <item>
             \tAll the data is stored on the device to check offline, but you need to be connected to
-            the Internet to get it updated.
+            the Internet to update it.
         </item>
 
-        <item>Do I can eat twice in one day?</item>
+        <item>Can I eat twice a day?</item>
         <item>
             No.
         </item>
@@ -172,12 +173,12 @@
 
         <item>How can I collaborate?</item>
         <item>
-            \tYou can send your suggestion by e-mail in the \"Contact\" option in the side menu.\n\n
+            \tYou can send your suggestion by e-mail in the \"Contact\" option of the side menu.\n\n
 
             \tYou can also have a look at the source code in Github:\n
                 \t\tgithub.com/AIDEA775/UNCmorfi\n\n
 
-            \tAnd you can recommend the app to anyone you see in the dining room line ;)
+            \tAnd you can recommend the app to anyone you see in the cafeteria\'s line ;)
         </item>
 
         <item>What versions were there before?</item>
